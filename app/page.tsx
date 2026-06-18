@@ -88,7 +88,7 @@ export default function Home() {
         </p>
 
         <div className="mt-8 max-w-2xl text-lg md:text-xl text-zinc-400 leading-relaxed">
-          silly weeb swe 🌱 :: cybersecurity 🍒 :: malware research 🍉 :: reverse engineering 🐸 :: fullstack dev ☕ :: game modding 🎮 :: cloud & devops ☁️
+          silly weeb 🌱 :: cybersecurity 🍒 :: malware research 🍉 :: reverse engineering 🐸 :: fullstack dev ☕ :: game modding 🎮 :: cloud & devops ☁️
         </div>
 
         <div className="mt-10 grid max-w-2xl grid-cols-2 gap-4 md:grid-cols-4">
