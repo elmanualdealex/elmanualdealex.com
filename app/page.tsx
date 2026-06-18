@@ -79,23 +79,24 @@ export default function Home() {
           </p>
         </div>
 
-        <h1 className="mt-8 text-7xl md:text-[10rem] lg:text-[12rem] font-black tracking-[-0.08em] leading-none">
-          ALEX
+        <h1 className="mt-8 text-7xl md:text-[10rem] lg:text-[7rem] font-black tracking-[-0.04em] leading-none">
+          ALEJANDRO GUTIÉRREZ
         </h1>
 
         <p className="mt-2 text-violet-400 text-lg">
-          レベルアップ中 • silly weeb software engineer
+          ソフトウェアエンジニア • Software Engineer
         </p>
 
         <div className="mt-8 max-w-2xl text-lg md:text-xl text-zinc-400 leading-relaxed">
-          silly weeb 🌱 :: cybersecurity 🍒 :: malware research 🍉 :: reverse engineering 🐸 :: fullstack dev ☕ :: game modding 🎮 :: cloud & devops ☁️
+          Cybersecurity • Reverse Engineering • Full-Stack Development • Cloud & DevOps
+          System mindset: exploration, analysis, and continuous leveling-up
         </div>
 
         <div className="mt-10 grid max-w-2xl grid-cols-2 gap-4 md:grid-cols-4">
-          <StatCounter label="STR" value={15} />
-          <StatCounter label="INT" value={95} />
-          <StatCounter label="DEX" value={80} />
-          <StatCounter label="LUK" value={42} />
+          <StatCounter label="Strenght" value={45} />
+          <StatCounter label="Intelligence" value={95} />
+          <StatCounter label="Dexterity" value={80} />
+          <StatCounter label="Luck" value={33} />
         </div>
       </section>
 
@@ -223,10 +224,51 @@ export default function Home() {
         <p className="text-xs uppercase tracking-[0.3em] text-violet-400 mb-6">
           PINNED QUESTS
         </p>
-        <p className="max-w-2xl text-lg text-zinc-400">
-          Take a look at my most relevant repositories ⚡
-        </p>
+
+        <h2 className="text-3xl font-bold mb-10">
+          Active Missions
+        </h2>
+
+        <div className="grid gap-6 md:grid-cols-3">
+          {/* Quest 1 */}
+          <div className="rounded-3xl border border-zinc-800 bg-zinc-900/40 p-6 backdrop-blur-xl">
+            <p className="text-xs text-violet-400 uppercase tracking-[0.3em]">
+              MAIN QUEST
+            </p>
+
+            <h3 className="mt-3 text-xl font-bold">
+              Malware Analysis Lab
+            </h3>
+
+            <p className="mt-2 text-sm text-zinc-500">
+              Reverse engineering and analyzing real-world samples in controlled environments.
+            </p>
+
+            <div className="mt-6 flex items-center justify-between text-xs text-zinc-600">
+              <span>Difficulty: HARD</span>
+              <span>Reward: Knowledge</span>
+            </div>
+          </div>
+
+          {/* Quest 2 */}
+          <div className="rounded-3xl border border-zinc-800 bg-zinc-900/40 p-6 backdrop-blur-xl">
+            <p className="text-xs text-violet-400 uppercase tracking-[0.3em]">
+              SIDE QUEST
+            </p>
+
+            <h3 className="mt-3 text-xl font-bold">
+              Full-Stack System Builder
+            </h3>
+            <p className="mt-2 text-sm text-zinc-500">
+              Building scalable apps with modern frameworks and cloud deployment.
+            </p>
+            <div className="mt-6 flex items-center justify-between text-xs text-zinc-600">
+              <span>Difficulty: MEDIUM</span>
+              <span>Reward: Portfolio</span>
+            </div>
+          </div>
+        </div>
       </section>
-    </main>
+    </main >
   );
 }
