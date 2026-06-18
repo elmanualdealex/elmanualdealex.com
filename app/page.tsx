@@ -58,7 +58,7 @@ export default function Home() {
             <a href="#quests" className="hover:text-white transition">quests</a>
             <a href="#skills" className="hover:text-white transition">skills</a>
             <a href="#inventory" className="hover:text-white transition">inventory</a>
-            <a href="#contact" className="hover:text-white transition">contact</a>
+            <a href="contact" className="hover:text-white transition">contact</a>
           </nav>
         </div>
       </header>
