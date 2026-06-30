@@ -280,6 +280,36 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Wallets Section */}
+      <section id="wallets" className="mx-auto max-w-7xl px-6 pb-32">
+        <p className="text-xs uppercase tracking-[0.3em] text-violet-400 mb-6">
+          WALLET ADDRESSES
+        </p>
+
+        <div className="grid gap-6 md:grid-cols-2">
+          {/* ETH */}
+          <div className="rounded-3xl border border-zinc-800 bg-zinc-900/40 p-6 backdrop-blur-xl">
+            <div className="flex items-center gap-3 mb-3">
+              <h3 className="text-lg font-bold">ETH</h3>
+            </div>
+
+            <p className="text-sm text-zinc-400 break-all">
+              0x2e187Fee152a9EE1C3696F6b241d55CC66b6F55d
+            </p>
+          </div>
+
+          {/* BTC */}
+          <div className="rounded-3xl border border-zinc-800 bg-zinc-900/40 p-6 backdrop-blur-xl">
+            <div className="flex items-center gap-3 mb-3">
+              <h3 className="text-lg font-bold">BTC</h3>
+            </div>
+
+            <p className="text-sm text-zinc-500">
+              bc1qv3yrdfmhj49ehwj7rhfv5vcau9w4kuz6f6dsl8
+            </p>
+          </div>
+        </div>
+      </section>
     </main >
   );
 }
